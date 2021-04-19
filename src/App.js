@@ -1,6 +1,5 @@
 import Header from "./components/Header/";
 import {useState} from "react";
-import { BrowserRouter as Router, Switch ,Route} from "react-router-dom";
 import IssueTable from './components/IssueTable/';
 import './App.css';
 
