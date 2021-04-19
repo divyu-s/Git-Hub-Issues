@@ -1,7 +1,6 @@
 import React from 'react'
 import "./IssueTable.css";
 import {useState} from "react";
-import { useHistory } from 'react-router';
 import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
 import ReactPaginate from "react-paginate";
 import img from '../../Octocat.png';
@@ -50,7 +49,7 @@ export default function IssueTable({res,error,flag}) {
             <div className="data__0"><h3>{res.length} Git Hub Issue's</h3></div>
           }
             </>
-            :<img className="cat__image" src={img}/>
+            :<img alt="git_logo_image" className="cat__image" src={img}/>
          }
 
        </div>

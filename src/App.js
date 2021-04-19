@@ -2,9 +2,6 @@ import Header from "./components/Header/";
 import {useState} from "react";
 import IssueTable from './components/IssueTable/';
 import './App.css';
-
-
-const API = "https://api.github.com/repos/${username}/${reponame}/issues";
 function App() {
   const [res, setRes] = useState([]);
   const [error,setError] = useState("");

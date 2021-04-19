@@ -1,9 +1,6 @@
 import React from 'react';
 import  './Header.css';
 import {useState} from "react";
-import { useHistory } from 'react-router';
-
-
 
 export default function Header({setRes,setError,setFlag}) {
   
